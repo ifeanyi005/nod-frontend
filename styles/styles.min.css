@@ -1,88 +1,35 @@
 @font-face {
-    font-family: "Larsseit";
-    src: url("../fonts/Larsseit/Larsseit.eot");
-    src: url("../fonts/Larsseit/Larsseit.woff") format("woff")
-}
-
-@font-face {
-    font-family: "Larsseit-Bold";
-    src: url("../fonts/Larsseit/Larsseit-Bold.eot");
-    src: url("../fonts/Larsseit/Larsseit-Bold.woff") format("woff")
-}
-
-@font-face {
-    font-family: "Larsseit-Light";
-    src: url("../fonts/Larsseit/Larsseit-Light.eot");
-    src: url("../fonts/Larsseit/Larsseit-Light.woff") format("woff")
-}
-
-@font-face {
-    font-family: "Larsseit-Medium";
-    src: url("../fonts/Larsseit/Larsseit-Medium.eot");
-    src: url("../fonts/Larsseit/Larsseit-Medium.woff") format("woff")
-}
-
-@font-face {
-    font-family: "Vaud";
-    src: url("../fonts/vaud/Vaud.otf");
-    src: url("../fonts/vaud/Vaud.otf") format("woff")
-}
-
-@font-face {
-    font-family: "Vaud Light";
-    src: url("../fonts/vaud/Vaud Light.otf");
-    src: url("../fonts/vaud/Vaud Light.woff") format("woff")
-}
-
-@font-face {
-    font-family: "Vaud Medium";
-    src: url("../fonts/vaud/Vaud Medium.otf");
-    src: url("../fonts/vaud/Vaud Medium.woff") format("woff")
-}
-
-@font-face {
-    font-family: "Vaud SemiBold";
-    src: url("../fonts/vaud/Vaud SemiBold.otf");
-    src: url("../fonts/vaud/Vaud SemiBold.woff") format("woff")
-}
-
-@font-face {
-    font-family: 'MarkPro';
-    src: url('../fonts/Mark/MarkPro.woff') format('woff'),
-        url('../fonts/Mark/MarkPro.ttf') format('truetype');
-    font-weight: normal;
+    font-family: "Graphik-Light";
+    src: url("../../app/lib/fonts/Graphik/Graphik-Light.eot"), url("../../app/lib/fonts/Graphik/Graphik-Light.woff") format("woff"), url("../../app/lib/fonts/Graphik/Graphik-Light.ttf") format("truetype");
+    font-weight: 300;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'MarkPro';
-    src: url('../fonts/Mark/MarkPro-Medium.woff') format('woff'),
-        url('../fonts/Mark/MarkPro-Medium.ttf') format('truetype');
+    font-family: "Graphik";
+    src: url("../../app/lib/fonts/Graphik/Graphik-Regular.eot"), url("../../app/lib/fonts/Graphik/Graphik-Regular.woff") format("woff"), url("../../app/lib/fonts/Graphik/Graphik-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Graphik-Medium";
+    src: url("../../app/lib/fonts/Graphik/Graphik-Medium.eot"), url("../../app/lib/fonts/Graphik/Graphik-Medium.woff") format("woff"), url("../../app/lib/fonts/Graphik/Graphik-Medium.ttf") format("truetype");
     font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'MarkPro-Book';
-    src: url('../fonts/Mark/MarkPro-Book.woff') format('woff'),
-        url('../fonts/Mark/MarkPro-Book.ttf') format('truetype');
-    font-weight: normal;
+    font-family: "Graphik-Bold";
+    src: url("../../app/lib/fonts/Graphik/Graphik-Semibold.eot"), url("../../app/lib/fonts/Graphik/Graphik-Semibold.woff") format("woff"), url("../../app/lib/fonts/Graphik/Graphik-Semibold.ttf") format("truetype");
+    font-weight: 600;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'MarkPro';
-    src: url('../fonts/Mark/MarkPro-Bold.woff') format('woff'),
-        url('../fonts/Mark/MarkPro-Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'MarkPro';
-    src: url('../fonts/Mark/MarkPro-Light.woff') format('woff'),
-        url('../fonts/Mark/MarkPro-Light.ttf') format('truetype');
-    font-weight: 300;
+    font-family: "Graphik-Black";
+    src: url("../../app/lib/fonts/Graphik/Graphik-Bold.eot"), url("../../app/lib/fonts/Graphik/Graphik-Bold.woff") format("woff"), url("../../app/lib/fonts/Graphik/Graphik-Bold.ttf") format("truetype");
+    font-weight: 700;
     font-style: normal;
 }
 
@@ -246,7 +193,7 @@ html {
 
 a.btn-fill-md {
     color: #FFFFFF !important;
-    font-family: "MarkPro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: "Graphik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 a.btn-outline-md {
@@ -256,7 +203,7 @@ a.btn-outline-md {
     /* width: 168px; */
     /* margin: 0 auto; */
     /* height: 38px; */
-    font-family:  "MarkPro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: "Graphik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     letter-spacing: -0.2px;
     line-height: 38px;
     /* display: block; */
@@ -281,7 +228,7 @@ a.btn-fill-md.navButton {
     padding-bottom: .5em;
     padding-left: 2em;
     padding-right: 2em;
-    font-family:  "MarkPro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: "Graphik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 15px;
 }
 
@@ -291,7 +238,7 @@ a.btn-fill-md:hover {
 
 .press-kit-highlight {
     color: #757578;
-    font-family: Larsseit;
+    font-family: Graphik;
     font-size: 14px;
 }
 
@@ -486,7 +433,7 @@ ul.glooList li::before {
     color: #444971;
     display: block;
     transition: 0.3s;
-    font-family:  "MarkPro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: "Graphik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     text-align: left;
     padding: 10px 30px 10px;
     font-size: 20px !important;
@@ -518,14 +465,14 @@ ul.glooList li::before {
 
 h2.sectionTitle {
     color: #1B314B;
-    font-family:  "MarkPro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: "Graphik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 2.25em;
     font-weight: 700;
     letter-spacing: -0.15px;
 }
 
 p {
-    font-family:  "MarkPro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: "Graphik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 img,
@@ -535,7 +482,7 @@ img,
 
 h3 {
     color: #1B314B;
-    font-family:  "MarkPro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: "Graphik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 32px;
     font-weight: 700;
     letter-spacing: -0.15px;
@@ -544,7 +491,7 @@ h3 {
 
 h4 {
     color: #1B314B;
-    font-family:  "MarkPro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: "Graphik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 28px;
     font-weight: 700;
     letter-spacing: 0.1px;
@@ -553,7 +500,7 @@ h4 {
 
 h5 {
     color: #1B314B;
-    font-family:  "MarkPro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: "Graphik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 24px;
     font-weight: 700;
     letter-spacing: -0.1px;
@@ -562,7 +509,7 @@ h5 {
 
 h6 {
     color: #3C4043;
-    font-family:  "MarkPro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: "Graphik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 20px;
     font-weight: 700;
     letter-spacing: 0.08px;
@@ -580,14 +527,14 @@ h6 {
 
 .block-link {
     color: #0744DD;
-    font-family:  "MarkPro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: "Graphik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 16px;
     font-weight: 700;
 }
 
 .block-link-sm {
     color: #0744DD;
-    font-family:  "MarkPro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: "Graphik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 15px;
     font-weight: 500;
     letter-spacing: -0.06px;
@@ -597,7 +544,7 @@ h6 {
 body {
     display: grid;
     color: #444971;
-    font-family:  "MarkPro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: "Graphik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 16px
 }
 
@@ -677,7 +624,7 @@ body header nav .links {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    font-family: "Larsseit"
+    font-family: "Graphik"
 }
 
 body header nav .links>* {
@@ -757,7 +704,7 @@ body header nav .links ul li.dropdown .dropdown-menu>* p:last-child {
 
 body header nav .links ul li a {
     color: #222D4F;
-    font-family:  "MarkPro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: "Graphik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 16px;
     font-weight: 500;
 }
@@ -803,7 +750,7 @@ body header .hero.single .content {
 
 body header .hero.single .content h1 {
     color: #444971;
-    font-family:  "MarkPro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: "Graphik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 3em;
     background-size: auto;
 }
@@ -836,7 +783,7 @@ body header .hero>* {
 }
 
 body header .hero .left .title p {
-    font-family: "Larsseit";
+    font-family: "Graphik";
     font-size: 0.875em;
     display: inline-block;
     text-transform: uppercase;
@@ -849,7 +796,7 @@ body header .hero .left .title p {
 body header .hero .left h1 {
     font-size: 3em;
     color: #1B314B;
-    font-family:  "MarkPro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: "Graphik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-weight: 700;
     letter-spacing: -0.5px;
     line-height: 56px;
@@ -857,7 +804,7 @@ body header .hero .left h1 {
 
 body header .hero .left>p:last-of-type {
     color: #697788;
-    font-family:  "MarkPro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: "Graphik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 1.125em;
     font-weight: 500;
     line-height: 27px;
@@ -871,7 +818,7 @@ body header .hero .left .links {
 
 .text-caption {
     color: #3174E2;
-    font-family:  "MarkPro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: "Graphik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 14px;
     font-weight: 500;
     letter-spacing: -0.08px;
@@ -903,7 +850,7 @@ body header .hero .left .brands .heading {
     text-transform: uppercase;
     color: #444971;
     margin-bottom: .9em;
-    font-family: "Larsseit-Medium", sans-serif;
+    font-family: "Graphik-Medium", sans-serif;
     font-size: 1em;
 }
 
@@ -938,7 +885,7 @@ body .description .top {
 body .description .top h2 {
     color: #444971;
     font-size: 2.375em;
-    font-family: "Larsseit-Medium"
+    font-family: "Graphik-Medium"
 }
 
 body .description .top p {
@@ -962,7 +909,7 @@ body .description .bottom .right {
 
 body .description .bottom .right p:first-child {
     color: #444971;
-    font-family: "Larsseit-Medium", sans-serif;
+    font-family: "Graphik-Medium", sans-serif;
     font-size: 1em;
     line-height: 1.5;
 }
@@ -975,7 +922,7 @@ body .description .bottom .right p:first-child {
 
 ul.bordered-tabs li a {
     color: #454F5B;
-    font-family:  "MarkPro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: "Graphik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 16px;
     font-weight: 500;
     letter-spacing: -0.21px;
@@ -1032,7 +979,7 @@ body .features {
 body .features .heading {
     color: #444971;
     margin-bottom: 1em;
-    font-family: "Larsseit-Medium", system-ui;
+    font-family: "Graphik-Medium", system-ui;
     font-size: 2.375rem;
 }
 
@@ -1063,7 +1010,7 @@ body .features .body .feature .content .image {
 
 body .features .body .feature .content h3 {
     color: #444971;
-    font-family: "Larsseit-Medium";
+    font-family: "Graphik-Medium";
     font-size: 2em
 }
 
@@ -1100,7 +1047,7 @@ body .testimonial {
 body .testimonial .heading {
     color: #444971;
     margin-bottom: 1em;
-    font-family: "Larsseit-Medium";
+    font-family: "Graphik-Medium";
     font-size: 2.375em
 }
 
@@ -1167,7 +1114,7 @@ body .testimonial .testimonial-body .testimony .bottom .profileDetail p {
 }
 
 body .testimonial .testimonial-body .testimony .bottom .profileDetail p:first-child {
-    font-family: "Larsseit", sans-serif;
+    font-family: "Graphik", sans-serif;
     font-size: 1.125em;
 }
 
@@ -1232,7 +1179,7 @@ body .brandsSection .heading p {
 body .brandsSection .heading p span:first-child {
     text-transform: uppercase;
     color: #444971;
-    font-family: "Larsseit-Medium";
+    font-family: "Graphik-Medium";
     font-size: 1.25em
 }
 
@@ -1269,7 +1216,7 @@ body .brandsSection .bottom .links>*:first-child {
 
 body .brandsSection .bottom .links a {
     color: #0744DD;
-    font-family: "Larsseit-Medium"
+    font-family: "Graphik-Medium"
 }
 
 body .brandsSection .bottom .links a.btn-fill-md {
@@ -1304,7 +1251,7 @@ body .certifications.presskitCertifcation {
 
 body .certifications .heading {
     text-align: center;
-    font-family: "Larsseit-Medium", sans-serif;
+    font-family: "Graphik-Medium", sans-serif;
     font-size: 2.375em;
     color: #444971;
     margin-bottom: 2em
@@ -1367,7 +1314,7 @@ body .featured>*:first-child {
 }
 
 body .featured .heading {
-    font-family: "Larsseit-Medium";
+    font-family: "Graphik-Medium";
     text-transform: uppercase;
     color: #586F7F
 }
@@ -1397,7 +1344,7 @@ body footer {
 body footer h6 {
     margin-bottom: 1em;
     color: #1B314B;
-    font-family:  "MarkPro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: "Graphik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 1.125rem;
     font-weight: 500;
     text-transform: uppercase;
@@ -1431,7 +1378,7 @@ body footer .links ul li {
 
 body footer .links ul li a {
     color: #697788;
-    font-family:  "MarkPro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: "Graphik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 1rem;
     font-weight: 400;
     line-height: 19px;
@@ -1490,7 +1437,7 @@ body .description-mediumEnterprise .top img {
 }
 
 body .description-mediumEnterprise .top h2 {
-    font-family: "Larsseit-Medium";
+    font-family: "Graphik-Medium";
     font-size: 2.375em;
     color: #444971
 }
@@ -1503,7 +1450,7 @@ body .description-mediumEnterprise .bottom {
 }
 
 body .description-mediumEnterprise .bottom .left h3 {
-    font-family: "Larsseit-Bold";
+    font-family: "Graphik-Bold";
     font-size: 1.5em;
     color: #444971;
     margin-bottom: 1em
@@ -1536,7 +1483,7 @@ body .features-mediumEnterprise .feature img {
 body .features-mediumEnterprise .feature h3 {
     color: #444971;
     font-size: 1.5em;
-    font-family: "Larsseit-Medium", sans-serif;
+    font-family: "Graphik-Medium", sans-serif;
     margin-bottom: 1rem
 }
 
@@ -1555,7 +1502,7 @@ body .description-largeEnterprise {
 }
 
 body .description-largeEnterprise>* h2 {
-    font-family: "Larsseit-Medium", sans-serif;
+    font-family: "Graphik-Medium", sans-serif;
     font-size: 2.375em;
     color: #444971
 }
@@ -1563,7 +1510,7 @@ body .description-largeEnterprise>* h2 {
 body .description-largeEnterprise>* p {
     font-size: 1.5em;
     margin-top: 0.5em;
-    font-family: "Larsseit-Light", sans-serif;
+    font-family: "Graphik-Light", sans-serif;
     margin-bottom: 1.75em;
 }
 
@@ -1609,14 +1556,14 @@ body .erpIntegration .top {
 }
 
 body .erpIntegration .top h2 {
-    font-family: "Larsseit-Medium";
+    font-family: "Graphik-Medium";
     color: #444971;
     font-size: 2.5em
 }
 
 body .erpIntegration .top p {
     font-size: 1.5em;
-    font-family: "Larsseit-Light", sans-serif;
+    font-family: "Graphik-Light", sans-serif;
 }
 
 body .erpIntegration .brands {
@@ -1639,7 +1586,7 @@ body .procurementSimplified .top {
 }
 
 body .procurementSimplified .top h2 {
-    font-family: "Larsseit-Medium";
+    font-family: "Graphik-Medium";
     color: #444971;
     font-size: 2.375em
 }
@@ -1669,7 +1616,7 @@ body .procurementSimplified .bottom .left ul li.content:not(:last-child) {
 }
 
 body .procurementSimplified .bottom .left ul li.content h3 {
-    font-family: "Larsseit-Medium";
+    font-family: "Graphik-Medium";
     color: #444971;
     font-size: 1.5em
 }
@@ -1791,7 +1738,7 @@ body .description-careers {
 body .description-careers h3,
 body .description-careers h4 {
     color: #444971;
-    font-family: "Larsseit-Medium";
+    font-family: "Graphik-Medium";
     margin-bottom: 2rem
 }
 
@@ -1815,7 +1762,7 @@ body .job-openings {
 
 body .job-openings .heading {
     font-size: 3em;
-    font-family: "Larsseit-Bold";
+    font-family: "Graphik-Bold";
     color: #444971;
     margin-bottom: 1em
 }
@@ -1853,7 +1800,7 @@ body .job-openings .content .job .collapseControl>*:not(.collapsed) p::after {
 }
 
 body .job-openings .content .job .collapseControl>* h4 {
-    font-family: "Larsseit-Medium"
+    font-family: "Graphik-Medium"
 }
 
 body .job-openings .content .job .collapseControl>* p {
@@ -1901,7 +1848,7 @@ body .image-text {
 
 body .image-text p {
     color: #637381;
-    font-family:  "MarkPro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: "Graphik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 20px;
     font-weight: 400;
     line-height: 28px;
@@ -1926,7 +1873,7 @@ body .faqs .faqs-section:not(:last-child) {
 
 body .faqs .faqs-section .heading {
     color: #1B314B;
-    font-family:  "MarkPro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: "Graphik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 2.25em;
     font-weight: 700;
     letter-spacing: -0.15px;
@@ -1942,7 +1889,7 @@ body .faqs .faqs-section .content .question-container .question p {
     margin-bottom: .5em;
     width: 90%;
     color: #0744DD;
-    font-family:  "MarkPro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: "Graphik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 1.5em;
     font-weight: 500;
     letter-spacing: 0.1px;
@@ -1956,7 +1903,7 @@ body .faqs .faqs-section .content .question-container .question p {
 
 .question-container .answer p {
     color: #637381;
-    font-family:  "MarkPro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: "Graphik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 1.25em;
     font-weight: 400;
     line-height: 28px;
@@ -1983,7 +1930,7 @@ body .contactAndForm .left {
 }
 
 body .contactAndForm .left h5 {
-    font-family: "Larsseit-Medium", sans-serif;
+    font-family: "Graphik-Medium", sans-serif;
     font-size: 1.5em;
     color: #444971;
     max-width: 320px;
@@ -1996,7 +1943,7 @@ body .contactAndForm .left p {
     text-align: left;
     margin-bottom: 3rem;
     color: #7D84A0;
-    font-family:  "MarkPro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: "Graphik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 14px;
     font-weight: 500;
     line-height: 17px;
@@ -2013,7 +1960,7 @@ body .contactAndForm .floating-form {
 
 .form-heading-small h6 {
     color: #444971;
-    font-family:  "MarkPro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: "Graphik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 1.125rem;
     font-weight: 700;
     letter-spacing: 0.25px;
@@ -2033,7 +1980,7 @@ body .contactAndForm .right p {
 }
 
 body .contactAndForm .right p:first-child {
-    font-family: "Larsseit-Medium";
+    font-family: "Graphik-Medium";
     font-size: 24px;
     margin-bottom: 10px
 }
@@ -2212,7 +2159,7 @@ body .pricing .pricingTable .pricingBody>*:first-child .featuresHead h4,
 body .pricing .pricingTable .pricingHead>*:first-child .featuresHead h4 {
     text-transform: uppercase;
     font-size: 1em;
-    font-family: "Larsseit-Medium"
+    font-family: "Graphik-Medium"
 }
 
 body .pricing .pricingTable .pricingBody>*:not(:first-child),
@@ -2240,7 +2187,7 @@ body .pricing .pricingTable .pricingHead>*:not(:first-child) .pTableHead {
 
 body .pricing .pricingTable .pricingBody>*:not(:first-child) .pTableHead h4,
 body .pricing .pricingTable .pricingHead>*:not(:first-child) .pTableHead h4 {
-    font-family: "Larsseit-Medium";
+    font-family: "Graphik-Medium";
     font-size: 1.75em;
     color: #0744DD;
     /* margin-bottom: .5em */
@@ -2287,7 +2234,7 @@ body .pricing .pricingTable .pricingBody>*:not(:first-child) .yearlyPrice p,
 body .pricing .pricingTable .pricingBody>*:not(:first-child) .monthlyPrice p,
 body .pricing .pricingTable .pricingHead>*:not(:first-child) .yearlyPrice p,
 body .pricing .pricingTable .pricingHead>*:not(:first-child) .monthlyPrice p {
-    font-family: "Larsseit-Medium";
+    font-family: "Graphik-Medium";
     font-size: 2.5em;
     color: #444971
 }
@@ -2331,7 +2278,7 @@ body .stores {
 
 body .stores h2.sectionTitle {
     color: #1B314B;
-    font-family: 'MarkPro', sans-serif;
+    font-family: 'Graphik', sans-serif;
     font-size: 2.25rem;
     font-weight: 700;
     letter-spacing: -0.15px;
@@ -2379,7 +2326,7 @@ body .stores .brands .customer {
 
 body .stores .brands .customer p {
     color: #222D39;
-    font-family:  "MarkPro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: "Graphik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 14px;
     margin-bottom: 0;
 }
@@ -2418,7 +2365,7 @@ body .description-presskit {
 }
 
 body .description-presskit .sectionTitle {
-    font-family: "Larsseit-Medium";
+    font-family: "Graphik-Medium";
     font-size: 2.5em;
     color: #444971;
     margin-bottom: 1em
@@ -2432,7 +2379,7 @@ body .description-presskit .descriptionGroup {
 
 body .description-presskit .descriptionGroup>* h4 {
     color: #444971;
-    font-family: "Larsseit-Medium";
+    font-family: "Graphik-Medium";
     font-size: 16px
 }
 
@@ -2447,7 +2394,7 @@ body .assets {
 }
 
 body .assets .sectionTitle {
-    font-family: "Larsseit-Medium";
+    font-family: "Graphik-Medium";
     font-size: 2.5em;
     color: #444971;
     margin-bottom: 1em
@@ -2467,7 +2414,7 @@ body .assets .body>* {
 
 body .assets .body>* .left h4 {
     color: #444971;
-    font-family: "Larsseit-Medium";
+    font-family: "Graphik-Medium";
     font-size: 16px
 }
 
@@ -2543,7 +2490,7 @@ body .why-pss>*:not(.ourValues):not(.glootianCreed) .content {
 }
 
 body .why-pss>*:not(.ourValues):not(.glootianCreed) .content .text p:first-of-type {
-    font-family: "Larsseit-Medium";
+    font-family: "Graphik-Medium";
     color: #444971;
     font-size: 1.5em;
 }
@@ -2559,7 +2506,7 @@ body .why-pss>*:not(.ourValues):not(.glootianCreed) .content .image img {
 
 body .why-pss>* .sectionTitle {
     color: #1B314B;
-    font-family:  "MarkPro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: "Graphik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 2.25em;
     font-weight: 700;
     letter-spacing: -0.15px;
@@ -2575,7 +2522,7 @@ body .why-pss .ourVision .content .image {
 
 body .why-pss .glootianCreed .content>p {
     color: #444971;
-    font-family: "Larsseit", sans-serif;
+    font-family: "Graphik", sans-serif;
     font-size: 1.5em;
     width: 55%;
     margin-bottom: 1em
@@ -2599,7 +2546,7 @@ body .why-pss .ourValues .content .values .value img {
 body .why-pss .ourValues .content .values .value h6 {
     margin-bottom: 0.5em;
     color: #1B314B;
-    font-family:  "MarkPro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: "Graphik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 21px;
     font-weight: 500;
     letter-spacing: -0.24px;
@@ -2608,7 +2555,7 @@ body .why-pss .ourValues .content .values .value h6 {
 body .why-pss .ourValues .content .values .value p {
     margin-bottom: 0;
     color: #697788;
-    font-family:  "MarkPro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: "Graphik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 1em;
     /* font-weight: 400; */
     line-height: 21px;
@@ -2623,7 +2570,7 @@ body .for-biz .ourValues .content .values .value p {
 
 .sub-h2 {
     color: #637381;
-    font-family:  "MarkPro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: "Graphik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 20px;
     font-weight: 400;
     line-height: 28px;
@@ -2633,7 +2580,7 @@ body .for-biz .ourValues .content .values .value p {
 
 .sub-h3 {
     color: #637381;
-    font-family:  "MarkPro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: "Graphik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 19px;
     font-weight: 400;
     line-height: 28px;
@@ -2694,7 +2641,7 @@ body .ourInvestors {
 }
 
 body .ourInvestors .sectionTitle {
-    font-family: "Larsseit-Medium";
+    font-family: "Graphik-Medium";
     font-size: 2.5em;
     color: #48446F;
     text-align: center;
@@ -2731,7 +2678,7 @@ body .ourInvestors .investors .investor .image img {
 body .ourInvestors .investors .investor p {
     font-size: 1.15em;
     color: #444971;
-    font-family: "Larsseit", sans-serif;
+    font-family: "Graphik", sans-serif;
 }
 
 body .pressSection {
@@ -2741,7 +2688,7 @@ body .pressSection {
 }
 
 body .pressSection .sectionTitle {
-    font-family: "Larsseit-Medium";
+    font-family: "Graphik-Medium";
     font-size: 2.375em;
     color: #444971;
     text-align: center;
@@ -2802,7 +2749,7 @@ body .cta .left p:first-child {
     font-weight: 600;
     color: #444971;
     margin-bottom: 0;
-    font-family: "Larsseit", sans-serif;
+    font-family: "Graphik", sans-serif;
 }
 
 .pagewrap {
@@ -2887,7 +2834,7 @@ body .cta .left p:not(:first-child) {
 .floating-input,
 .floating-select {
     font-size: 18px;
-    font-family: "MarkPro", sans-serif;
+    font-family: "Graphik", sans-serif;
     padding: 0px 16px;
     display: block;
     width: 100%;
@@ -2965,7 +2912,7 @@ body .cta .left p:not(:first-child) {
     -moz-transition: 0.2s ease all;
     -webkit-transition: 0.2s ease all;
     color: #48446F;
-    font-family: "MarkPro", sans-serif;
+    font-family: "Graphik", sans-serif;
     font-size: 18px;
     opacity: 0.6;
 }
@@ -3124,7 +3071,7 @@ body .cta .left p:not(:first-child) {
     background: #0744DD;
     margin: auto;
     line-height: 1.75;
-    font-family:  "MarkPro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: "Graphik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 16px;
     background-image: linear-gradient(180deg, #1179F0 0%, #0744DD 100%);
     border: 1px solid #0744DD;
@@ -3166,20 +3113,20 @@ body .featured.glooPress {
     background-color: #fff;
     border-color: transparent;
     color: #212B35;
-    font-family:  "MarkPro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: "Graphik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 18px;
     font-weight: 500;
 }
 
 .nav-tabs.v-tabs .nav-link {
     border: none;
-    font-family:  "MarkPro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: "Graphik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 18px;
 }
 
 .v-tab-content .content .question-title h2 {
     color: #1B314B;
-    font-family:  "MarkPro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: "Graphik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 36px;
     font-weight: 700;
     letter-spacing: -0.15px;
@@ -3188,7 +3135,7 @@ body .featured.glooPress {
 
 .v-tab-content .content .question-container .question h6 {
     color: #212B35;
-    font-family:  "MarkPro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: "Graphik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 21px;
     font-weight: 500;
     letter-spacing: -0.24px;
@@ -3197,7 +3144,7 @@ body .featured.glooPress {
 
 .v-tab-content .content .question-container .answer p {
     color: #637381;
-    font-family:  "MarkPro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: "Graphik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 20px;
     font-weight: 400;
     margin-bottom: 2rem;
@@ -3217,7 +3164,7 @@ body .featured.glooPress {
     }
 
     body .why-pss>*:not(.ourValues):not(.glootianCreed) .content .text p:first-of-type {
-        font-family: "Larsseit-Medium";
+        font-family: "Graphik-Medium";
         color: #444971;
         font-size: 1.75em;
     }
@@ -3390,7 +3337,7 @@ body .featured.glooPress {
 
     body .description .bottom .right p:first-child {
         color: #444971;
-        font-family: "Larsseit-Medium", sans-serif;
+        font-family: "Graphik-Medium", sans-serif;
         font-size: 1.125em;
         line-height: 1.5;
     }
@@ -3486,7 +3433,7 @@ body .featured.glooPress {
     }
 
     body .erpIntegration .top h2 {
-        font-family: "Larsseit-Medium";
+        font-family: "Graphik-Medium";
         color: #444971;
         font-size: 2.375em;
     }
@@ -3572,7 +3519,7 @@ body .featured.glooPress {
 
     body .pricing-mobile .plans .plan .head .left h3 {
         color: #0744DD;
-        font-family: "Larsseit-Medium";
+        font-family: "Graphik-Medium";
         margin-bottom: 0
     }
 
@@ -3581,7 +3528,7 @@ body .featured.glooPress {
     }
 
     body .pricing-mobile .plans .plan .head .right p {
-        font-family: "Larsseit-Medium";
+        font-family: "Graphik-Medium";
         font-size: 2.5em
     }
 
@@ -3958,7 +3905,7 @@ body .featured.glooPress {
     }
 
     body .why-pss>*:not(.ourValues):not(.glootianCreed) .content .text p:first-of-type {
-        font-family: "Larsseit-Medium";
+        font-family: "Graphik-Medium";
         color: #444971;
         font-size: 1.75em;
     }
@@ -4194,7 +4141,7 @@ body .featured.glooPress {
     body .description-careers h3,
     body .description-careers h4 {
         margin-bottom: 1em;
-        font-family: "Larsseit-Medium"
+        font-family: "Graphik-Medium"
     }
 
     body .description-careers h3 {
@@ -4303,7 +4250,7 @@ body .featured.glooPress {
 
     section.informational h2.sectionTitle {
         color: #1B314B;
-        font-family:  "MarkPro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        font-family: "Graphik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
         font-size: 2rem;
         font-weight: 700;
         letter-spacing: -0.15px;
@@ -4463,7 +4410,7 @@ body .featured.glooPress {
 
     body .pricing-mobile .plans .plan .head .left h3 {
         color: #0744DD;
-        font-family: "Larsseit-Medium";
+        font-family: "Graphik-Medium";
         margin-bottom: 0
     }
 
@@ -4472,7 +4419,7 @@ body .featured.glooPress {
     }
 
     body .pricing-mobile .plans .plan .head .right p {
-        font-family: "Larsseit-Medium";
+        font-family: "Graphik-Medium";
         font-size: 2.5em
     }
 
@@ -4599,13 +4546,13 @@ body .featured.glooPress {
 
     body .cta .left p:not(:first-child) {
         font-size: 2.25em;
-        font-family: "Larsseit-Light", sans-serif;
+        font-family: "Graphik-Light", sans-serif;
         margin-bottom: 1.5em;
     }
 
     body .cta .left p:first-child {
         font-weight: 500;
-        font-family: "Larsseit", sans-serif;
+        font-family: "Graphik", sans-serif;
         color: #444971;
         font-size: 3em;
         letter-spacing: -0.5px;
