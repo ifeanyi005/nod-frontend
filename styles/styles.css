@@ -185,20 +185,41 @@ body {
 }
 
 
-body>* {
+body .testimonial {
+  display: grid;
+  justify-items: center;
+
+}
+
+body .testimonial .rightContent h3,
+body .testimonial .rightContent p {
+  color: #fff;
+  text-align: center !important;
+
+}
+
+body>*:not(.testimonials),
+.testimonial {
   padding-left: 6em;
   padding-right: 6em
 }
 
+
+
 @media (max-width: 36.89em) {
-  body>* {
+
+  body>*:not(.testimonials),
+  .testimonial {
     padding-left: 1em;
     padding-right: 1em
   }
+
 }
 
 @media (min-width:36.89em) and (max-width: 61.9375em) {
-  body>* {
+
+  body>*:not(.testimonials),
+  .testimonial {
     padding-left: 3em;
     padding-right: 3em
   }
@@ -620,17 +641,48 @@ body .covers {
 }
 
 body .how-it-works {
-  display: grid;
+  display: inline-grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 2em;
+  grid-gap: 5em;
   margin-top: 7.143em;
   max-width: 1320px;
+  justify-items: center;
+  align-items: center;
 }
+
+body .testimonialContent {
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 2em;
+}
+
+body .testimonials {
+  display: inline-grid;
+  grid-template-rows: 1fr;
+  margin-top: 7.143em;
+}
+
+
+body .testimonial {
+  background: #0668E3;
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+
+
 
 body .usp2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 2em;
+  margin-top: 3em;
+  /* max-width: 1320px; */
+}
+
+body .steps {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  /* grid-gap: em; */
   margin-top: 3em;
   /* max-width: 1320px; */
 }
@@ -643,8 +695,15 @@ body .uniqueSellingPoint {
   max-width: 1320px;
 }
 
+
 @media only screen and (max-width: 798px) {
   body .hero {
+    grid-template-columns: 1fr;
+
+  }
+
+  body .how-it-works {
+
     grid-template-columns: 1fr;
 
   }
@@ -664,15 +723,12 @@ body .uniqueSellingPoint {
   }
 }
 
-/* @media only screen and (min-width: 576px) and (max-width:1024px) {
-  body .covers {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 1em;
-    margin-top: .5em;
-    max-width: 1320px;
-  }
+@media only screen and (min-width: 576px) and (max-width:992px) {
+
+  /* come back later
 } */
+}
+
 /* 
 @media only screen and (max-width: 576px) {
 
@@ -732,7 +788,9 @@ body .hero>* {
   max-width: 1320px;
 }
 
-.loancoverage h3 {
+.loancoverage h3,
+.rightContent h3,
+.faq h3 {
   font-family: Graphik-Medium;
   font-size: 32px;
   color: #212529;
@@ -740,7 +798,9 @@ body .hero>* {
   text-align: center;
 }
 
-.loancoverage p {
+.loancoverage p,
+.rightContent p,
+.faq p {
   display: block;
   font-family: Graphik-Regular;
   font-size: 16px;
@@ -748,6 +808,12 @@ body .hero>* {
   letter-spacing: 0;
   text-align: center;
   line-height: 21px;
+}
+
+.rightContent h3,
+.rightContent p {
+
+  text-align: left !important;
 }
 
 .card-1 {
@@ -776,4 +842,102 @@ body .hero>* {
   text-align: left;
   padding-top: 10px;
   margin-bottom: 0px !important;
+}
+
+.steps h6 {
+  font-family: Graphik-Medium;
+  font-size: 14px;
+  color: #0668E3;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.steps p {
+  font-family: Graphik-Regular;
+  font-size: 14px;
+  color: #5B5C5D;
+  letter-spacing: 0;
+  line-height: 23px;
+}
+
+.steps .number {
+  background: #0668E3;
+  border-radius: 31px;
+  color: #fff;
+  display: grid;
+  width: 35px;
+  height: 35px;
+  align-items: center;
+  justify-items: center;
+  margin: 0 auto;
+}
+
+.topBottom {
+  margin-top: 2em;
+}
+
+
+
+.my-slider p {
+  font-family: Graphik-Regular;
+  font-size: 16px;
+  color: #212529;
+  letter-spacing: 0;
+  line-height: 23px;
+}
+
+.testimonialContent .nodCard {
+  padding: 30px;
+}
+
+.testimonialContent .nodCard p {
+  margin-bottom: 1.5em;
+
+}
+
+.nodCard-img {
+  display: inline-flex;
+  width: 45px;
+  height: 45px;
+  margin-right: 1em;
+  vertical-align: middle;
+}
+
+.nodCard-info {
+  display: inline-flex;
+  vertical-align: middle;
+}
+
+.nodCard-info p {
+  font-family: Graphik-Medium;
+  font-size: 16px;
+  color: #212529;
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-bottom: 0px !important;
+}
+
+.nodCard-info p span {
+  display: block;
+  font-family: Graphik-Regular;
+  font-size: 14px;
+  color: #212529;
+  letter-spacing: 0;
+  line-height: 22px;
+}
+
+.faq {
+  display: grid;
+  margin-top: 7.143em;
+}
+
+.accordion .card-header:after {
+  font-family: 'FontAwesome';
+  content: "\f068";
+  float: right;
+}
+
+.accordion .card-header.collapsed:after {
+  /* symbol for "collapsed" panels */
+  content: "\f067";
 }
