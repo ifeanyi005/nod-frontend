@@ -308,6 +308,7 @@ h6 {
 a.btn-fill-md {
   color: #FFFFFF !important;
   font-family: "Graphik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  padding: 10px 24px;
 }
 
 a.btn-outline-md {
@@ -525,6 +526,10 @@ nav ul li ul li a {
 }
 
 @media only screen and (max-width: 798px) {
+  .nav-list li.nav-item:last-child a {
+    margin-top: 15px;
+  }
+
   .nav-mobile {
     display: block;
   }
@@ -565,7 +570,8 @@ nav ul li ul li a {
   }
 }
 
-.nav-list li.nav-item:last-child {
+.nav-list li.nav-item:last-child,
+.nav-list li.nav-item:nth-child(4) {
   margin-left: 17px;
 }
 
@@ -1184,6 +1190,7 @@ body .accordion .card-header .btn-link.collapsed {
 body .accordion .card-header .btn-link {
   color: #0668E3;
   font-size: 16px;
+  text-align: left;
 }
 
 body .accordion .card-header button {
