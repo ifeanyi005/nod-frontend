@@ -24,3 +24,16 @@ $(document).ready(function () {
         $(this).prev(".card-header").find(".fa").removeClass("fa-minus").addClass("fa-plus");
     });
 });
+
+$("#howitworks").click(function () {
+    $('html,body').animate({
+            scrollTop: $(".how-it-works").offset().top
+        },
+        'slow');
+});
+$("#faq").click(function () {
+    $('html,body').animate({
+            scrollTop: $(".faq").offset().top
+        },
+        'slow');
+});

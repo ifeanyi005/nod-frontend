@@ -300,6 +300,12 @@ h6 {
   margin-top: 1em;
 }
 
+.investbtn.btn-fill-md {
+
+  max-width: 189px;
+
+}
+
 .btn-fill-md:hover {
   background-image: linear-gradient(7.69deg, #FF9000 0%, rgb(206, 119, 6) 100%);
   text-decoration: none;
@@ -571,8 +577,7 @@ nav ul li ul li a {
   }
 }
 
-.nav-list li.nav-item:last-child,
-.nav-list li.nav-item:nth-child(4) {
+.nav-list li.nav-item:last-child {
   margin-left: 17px;
 }
 
@@ -648,13 +653,21 @@ body .covers {
 }
 
 body .how-it-works {
-  display: inline-grid;
+  display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 5em;
   margin-top: 7.143em;
-  max-width: 1320px;
   justify-items: center;
   align-items: center;
+  background-color: #F6FAFF;
+  padding-bottom: 7.143em;
+
+}
+
+section.invest {
+  background: #F6FAFF;
+  margin-top: 0em !important;
+
 }
 
 body .testimonialContent {
@@ -751,6 +764,11 @@ body .finalnote {
   }
 }
 
+body .leftSide .invest p>span {
+  display: block;
+  padding-top: px;
+  font-family: Graphik-Medium;
+}
 
 @media only screen and (max-width: 798px) {
   body .hero {
@@ -769,6 +787,8 @@ body .finalnote {
     grid-template-columns: 1fr;
     /* grid-gap: 2em; */
   }
+
+
 
   body .covers {
     display: grid;
@@ -793,6 +813,10 @@ body .finalnote {
 @media only screen and (min-width: 798px) {
   .leftSide .content {
     max-width: 68%;
+  }
+
+  .leftSide .content.invest {
+    max-width: 81%;
   }
 }
 
@@ -895,8 +919,8 @@ body .hero>* {
 
 .card-1 h6 {
   font-family: Graphik-Medium;
-  font-size: 18px;
-  color: #212529;
+  font-size: 16px;
+  color: #0668E3;
   letter-spacing: 0;
   line-height: 25px;
 }
