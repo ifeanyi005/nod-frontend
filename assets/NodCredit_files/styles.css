@@ -1057,6 +1057,17 @@ body .hero > * {
   margin-top: 7.143em;
 }
 
+.accordion .card-header:after {
+  /* font-family: 'FontAwesome';
+  content: "\f068";
+  float: right; */
+}
+
+.accordion .card-header.collapsed:after {
+  /* symbol for "collapsed" panels */
+  /* content: "\f067"; */
+}
+
 .accordion .fa {
   margin-right: 0.5rem;
 }
@@ -1080,6 +1091,9 @@ body footer {
   grid-template-columns: repeat(3, 1fr) 1.5fr;
   grid-gap: 2em;
   margin-top: 7.143em;
+}
+
+body .bottompart {
 }
 
 body footer h6 {
@@ -1316,13 +1330,4 @@ body div#nod-user-otp input[type="password"]:active {
   outline: none;
   border-bottom: 1px solid #0668e3;
   /* border-radius: 4px; */
-}
-
-body#getStd {
-  background: url(../assets/getstartedbg.svg) no-repeat;
-  background-position: top right;
-}
-
-header {
-  background-color: #fff;
 }

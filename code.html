@@ -56,41 +56,40 @@
 
             <div class="getStarted">
                 <div class="g-left">
-                    <a href="getstarted-1.html" class="mb-4"> <img src="assets/arrow-up.svg" alt="Go back"></a>
-                    <!-- <h6>Okay, Let's get started</h6> -->
-                    <h3 class="text-left">Sure thing. Enter your <br>login details.</h3>
+                    <a href="getstarted-3.html" class="mb-4"> <img src="assets/arrow-up.svg" alt="Go back"></a>
+                    <!-- <h6>Almost Done</h6> -->
+                    <h3 class="text-left">We've emailed you a four-digit number'</h3>
                     <div class="row mt-4">
-                        <div class="col-sm-9">
+                        <div class="col-sm-10">
+                            <label for="form1" class="">Enter Four-Digit Code</label>
+                            <form action="">
+                                <div id="nod-user-otp">
+                                    <input type="password" name="" id="codeBox1" maxlength="1"
+                                        onkeyup="onKeyUpEvent(1, event)" onfocus="onFocusEvent(1)" autofocus />
+                                    <input type="password" name="" id="codeBox2" maxlength="1"
+                                        onkeyup="onKeyUpEvent(2, event)" onfocus="onFocusEvent(2)" />
+                                    <input type="password" name="" id="codeBox3" maxlength="1"
+                                        onkeyup="onKeyUpEvent(3, event)" onfocus="onFocusEvent(3)" />
+                                    <input type="password" name="" id="codeBox4" maxlength="1"
+                                        onkeyup="onKeyUpEvent(4, event)" onfocus="onFocusEvent(4)" />
 
-                            <form action=" ">
-                                <div class="md-form">
-                                    <input type="text" id="form1" class="form-control">
-                                    <label for="form1" class="">Phone Number/Email Address</label>
                                 </div>
-                                <div class="md-form">
-                                    <input type="password" id="password-field" class="form-control">
-                                    <span toggle="#password-field"
-                                        class="fa fa-fw fa-eye field-icon toggle-password"></span>
-                                    <label for="password-field" class="">Password</label>
-                                </div>
-                                <div><a href="">Forgot password?</a></div>
 
-
-                                <button class="btn-outline-md largeButton-2 mt-3">Login</button>
+                                <button class="btn-outline-md largeButton-2 mt-4" id="Submit">Verify and Submit</button>
                             </form>
-
-
-
-
                         </div>
+
+
+
                     </div>
-
-
                 </div>
-                <div class="g-Right">
 
-                </div>
+
             </div>
+            <div class="g-Right">
+
+            </div>
+        </div>
         </div>
 
     </section>
@@ -165,6 +164,7 @@
 
 
     <script src="js/script.js"></script>
+
 </body>
 
 </html>

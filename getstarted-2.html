@@ -57,26 +57,40 @@
             <div class="getStarted">
                 <div class="g-left">
                     <a href="getstarted-1.html" class="mb-4"> <img src="assets/arrow-up.svg" alt="Go back"></a>
-                    <!-- <h6>Okay, Let's get started</h6> -->
-                    <h3 class="text-left">Sure thing. Enter your <br>login details.</h3>
+                    <h6>Okay, Let's get started</h6>
+                    <h3 class="text-left">Tell us about your loan request</h3>
                     <div class="row mt-4">
                         <div class="col-sm-9">
 
-                            <form action=" ">
+                            <form action="getstarted-3.html ">
                                 <div class="md-form">
-                                    <input type="text" id="form1" class="form-control">
-                                    <label for="form1" class="">Phone Number/Email Address</label>
+                                    <input type="text" id="form1" class="form-control" autofocus>
+                                    <label for="form1" class="">How much loan do you want?</label>
                                 </div>
-                                <div class="md-form">
-                                    <input type="password" id="password-field" class="form-control">
-                                    <span toggle="#password-field"
-                                        class="fa fa-fw fa-eye field-icon toggle-password"></span>
-                                    <label for="password-field" class="">Password</label>
+
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div class="md-form">
+                                            <select class="mdb-select form-control ">
+                                                <option value="" disabled selected>Choose Loan Tenor</option>
+                                                <option value="1">1 Month</option>
+                                                <option value="2">2 Month</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="md-form">
+                                            <select class="mdb-select form-control ">
+                                                <option value="" disabled selected>Purpose of loan</option>
+                                                <option value="1">Home Improvement</option>
+                                                <option value="2">Travel Support</option>
+                                                <option value="3">Other Reason</option>
+                                            </select>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div><a href="">Forgot password?</a></div>
 
-
-                                <button class="btn-outline-md largeButton-2 mt-3">Login</button>
+                                <button class="btn-outline-md largeButton-2 mt-3">Continue</button>
                             </form>
 
 
