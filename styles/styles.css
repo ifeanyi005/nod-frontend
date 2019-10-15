@@ -241,11 +241,11 @@ body .nav-link {
 }
 
 body a {
-  color: #fff;
+  color: #0668e3;
 }
 
 body a:hover {
-  color: #fff;
+  color: #0668e3;
 }
 
 p {
@@ -308,7 +308,7 @@ h6 {
   font-size: 16px;
   background: #ff9000;
   transition: color 0.25s ease;
-  color: #ffffff;
+  color: #ffffff !important;
   box-shadow: 0 10px 40px -10px rgba(255, 144, 0, 0.67);
   border-radius: 2px;
   padding: 5px 20px;
@@ -325,6 +325,7 @@ h6 {
 .btn-fill-md:hover {
   background-image: linear-gradient(7.69deg, #ff9000 0%, rgb(206, 119, 6) 100%);
   text-decoration: none;
+  color: #fff;
 }
 
 .nav-item a.btn-fill-md {
@@ -352,6 +353,8 @@ a.btn-outline-md {
   /* margin-top: 2.25em; */
   text-decoration: none;
   padding: 10px 24px;
+  background-color: #fff;
+
 }
 
 .btn-outline-md {
@@ -370,6 +373,7 @@ a.btn-outline-md {
   /* margin-top: 2.25em; */
   text-decoration: none;
   padding: 10px 24px;
+  background-color: #fff;
 }
 
 a.btn-outline-md:hover {
@@ -1341,7 +1345,7 @@ h3.text-left {
 
 body div#nod-user-otp input[type="password"] {
   overflow: visible;
-  width: 21%;
+  width: 20%;
   border-bottom: 1px solid #dee5e9;
   outline: 0;
   background: transparent;
