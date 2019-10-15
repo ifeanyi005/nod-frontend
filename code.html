@@ -51,7 +51,7 @@
     </header>
 
 
-    <section class="startSignup">
+    <section class="startSignup animated  slideInDown slow">
         <div class="col-12 col-md-11 m-auto">
 
             <div class="getStarted">
@@ -62,7 +62,7 @@
                     <div class="row mt-4">
                         <div class="col-sm-10">
                             <label for="form1" class="">Enter Four-Digit Code</label>
-                            <form action="">
+                            <form action="success.html">
                                 <div id="nod-user-otp">
                                     <input type="password" name="" id="codeBox1" maxlength="1"
                                         onkeyup="onKeyUpEvent(1, event)" onfocus="onFocusEvent(1)" autofocus />
@@ -74,6 +74,7 @@
                                         onkeyup="onKeyUpEvent(4, event)" onfocus="onFocusEvent(4)" />
 
                                 </div>
+                                <div class="my-3 pt-4">Didn't receive code? <a href="">Resend Code</a></div>
 
                                 <button class="btn-outline-md largeButton-2 mt-4" id="Submit">Verify and Submit</button>
                             </form>
@@ -83,12 +84,20 @@
 
                     </div>
                 </div>
+                <div class="g-Right">
+                    <div class="gcontent">
+                        <h6> <span><img src="assets/help.svg" alt=""></span> You need to check your mail</h6>
+                        <p>We promise this will be the only time we'll ask you to use this code during sign up. We will
+                            email your subsequently if we have a need to talk to you. So it is important that your
+                            verify
+                            your account.</p>
+                    </div>
+                </div>
+
 
 
             </div>
-            <div class="g-Right">
 
-            </div>
         </div>
         </div>
 
@@ -97,7 +106,7 @@
 
 
 
-    <footer>
+    <footer class="g3">
         <div class=" links contact">
             <h6>Contact</h6>
             <ul>
