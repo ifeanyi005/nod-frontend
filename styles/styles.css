@@ -752,7 +752,7 @@ body .testimonialContent {
 body .testimonials {
   display: inline-grid;
   grid-template-rows: 1fr;
-  margin-top: 7.143em;
+  /* margin-top: 7.143em; */
 }
 
 body .testimonial {
