@@ -181,7 +181,8 @@
   }
 }
 
-body {
+body,
+html {
   overflow-x: hidden;
   overflow-y: scroll;
 }
@@ -193,7 +194,7 @@ html {
 body {
   display: grid;
   color: #5b5c5d;
-  font-family: "Graphik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  font-family: Graphik-Regular, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
     "Segoe UI Symbol";
   font-size: 14px;
@@ -254,7 +255,7 @@ body a:hover {
 }
 
 p {
-  font-family: "Graphik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  font-family: Graphik-Regular, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
     "Segoe UI Symbol";
   font-size: 14px;
@@ -408,7 +409,7 @@ a.btn-outline-md:hover {
 }
 
 .largeButton {
-  padding: 15px 40px !important;
+  padding: 15px 30px !important;
 }
 
 .largeButton-2 {
@@ -817,7 +818,7 @@ body .finalnote {
 }
 
 .fnBg p {
-  font-family: Graphik-Regular;
+  /* font-family: Graphik-Regular; */
   font-size: 16px;
   color: #ffffff;
   letter-spacing: 0;
@@ -836,6 +837,21 @@ body .finalnote {
     display: inline-grid;
     float: left;
     padding-top: 15px;
+  }
+
+  body .bannerText {
+
+    font-size: 2em;
+    line-height: 40px;
+
+  }
+
+  body .loancoverage h3,
+  body .rightContent h3,
+  body .faq h3,
+  body .g-left h3,
+  body .fnBg h3 {
+    font-size: 25px;
   }
 }
 
@@ -917,7 +933,7 @@ body .hero>* {
 }
 
 .leftSide p {
-  font-family: Graphik-Regular;
+  /* font-family: Graphik-Regular; */
   font-size: 16px;
   color: #212529;
   letter-spacing: 0;
@@ -970,7 +986,7 @@ body .hero>* {
 .faq p,
 .g-left p {
   display: block;
-  font-family: Graphik-Regular;
+  /* font-family: Graphik-Regular; */
   font-size: 16px;
   color: #212529;
   letter-spacing: 0;
@@ -1006,7 +1022,7 @@ body .hero>* {
 }
 
 .card-1 p {
-  font-family: Graphik-Regular;
+  /* font-family: Graphik-Regular; */
   font-size: 14px;
   color: #5b5c5d;
   letter-spacing: 0;
@@ -1025,7 +1041,7 @@ body .hero>* {
 }
 
 .steps p {
-  font-family: Graphik-Regular;
+  /* font-family: Graphik-Regular; */
   font-size: 14px;
   color: #5b5c5d;
   letter-spacing: 0;
@@ -1049,7 +1065,7 @@ body .hero>* {
 }
 
 .my-slider p {
-  font-family: Graphik-Regular;
+  /* font-family: Graphik-Regular; */
   font-size: 16px;
   color: #212529;
   letter-spacing: 0;
@@ -1088,7 +1104,7 @@ body .hero>* {
 
 .nodCard-info p span {
   display: block;
-  font-family: Graphik-Regular;
+  /* font-family: Graphik-Regular; */
   font-size: 14px;
   color: #212529;
   letter-spacing: 0;
@@ -1312,7 +1328,7 @@ body .accordion .card-header button.btn:focus {
 body .accordion .card p {
   text-align: left;
   font-size: 14px;
-  font-family: Graphik-Regular;
+  /* font-family: Graphik-Regular; */
   font-size: 14px;
   color: #363d44;
   letter-spacing: 0;
@@ -1433,4 +1449,119 @@ header {
 
     grid-template-columns: 1fr;
   }
+}
+
+
+.fnBg .content {
+  display: grid;
+  justify-items: center;
+}
+
+.fnBg .content h3 {
+  text-align: center;
+}
+
+
+
+body .nod-radio .rdiobox {
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  /* padding: 10px 15px; */
+}
+
+body .nod-radio label {
+  margin-bottom: 0px;
+}
+
+.rdiobox input:checked~span {
+  color: #0744DD;
+  opacity: 1;
+}
+
+.nod-radio .rdiobox span:before {
+  display: none;
+}
+
+.nod-radio .rdiobox input[type='radio'] {
+  opacity: 0;
+  /* margin: 0 5px 0 0; */
+  visibility: hidden;
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.nod-radio .rdiobox input[type='radio']:checked {
+  opacity: 0;
+  /* margin: 0 5px 0 0; */
+  visibility: hidden;
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+  color: #0668E3;
+  opacity: 100%;
+  border: 1px solid #0668E3;
+  background-color: #FFFFFF;
+  border: 1px solid #0668E3;
+  border-radius: 50px;
+  padding: 10px 15px;
+}
+
+.nod-radio .rdiobox input~span {
+  color: #697788;
+  border: 1px solid #E3E3E3;
+  border-radius: 50px;
+  padding: 10px 15px;
+  display: block;
+}
+
+.nod-radio .rdiobox input:checked~span {
+  color: #0668E3;
+
+  background-color: rgba(206, 225, 248, 0.44);
+
+  box-shadow: 0 0 10px 0 rgba(86, 86, 86, 0.20);
+
+  border: 1px solid #0668E3;
+  border-radius: 50px;
+  padding: 10px 15px;
+  display: block;
+}
+
+.nod-radio .rdiobox input[type='radio']:checked+span:after {
+  display: none;
+}
+
+body .outofplace {
+  color: #757575;
+  position: absolute;
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+.investcalculator {
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
+.info {
+  display: inline-flex;
+}
+
+.info-2 {
+  display: inline-flex;
+  float: right;
+  font-family: Graphik-Medium;
+}
+
+.total .info {
+  font-family: Graphik-Medium;
+}
+
+.total .info-2 {
+  color: #0668E3;
 }
