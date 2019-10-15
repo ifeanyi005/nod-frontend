@@ -181,6 +181,11 @@
   }
 }
 
+body {
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
 html {
   scroll-behavior: smooth;
 }
