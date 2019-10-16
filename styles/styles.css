@@ -194,8 +194,8 @@ html {
 body {
   display: grid;
   color: #5b5c5d;
-  font-family: Graphik-Regular, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+  font-family: Graphik-Regular, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
     "Segoe UI Symbol";
   font-size: 14px;
 }
@@ -235,6 +235,15 @@ body>*:not(.testimonials),
   }
 }
 
+@media (min-width: 1366px) {
+
+  body>*:not(.testimonials),
+  .testimonial {
+    padding-left: 8em !important;
+    padding-right: 8em !important;
+  }
+}
+
 body .nav-link {
   display: unset;
 }
@@ -255,8 +264,8 @@ body a:hover {
 }
 
 p {
-  font-family: Graphik-Regular, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+  font-family: Graphik-Regular, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
     "Segoe UI Symbol";
   font-size: 14px;
 }
@@ -360,7 +369,6 @@ a.btn-outline-md {
   text-decoration: none;
   padding: 10px 24px;
   background-color: #fff;
-
 }
 
 .btn-outline-md {
@@ -701,17 +709,14 @@ body .successContent {
 }
 
 body .successContent div {
-
   text-align: center;
 }
 
 body .successContent div p {
-
   margin-bottom: 40px;
 }
 
 body .successContent div a img {
-
   margin-bottom: 40px;
 }
 
@@ -840,10 +845,8 @@ body .finalnote {
   }
 
   body .bannerText {
-
     font-size: 2em;
     line-height: 40px;
-
   }
 
   body .loancoverage h3,
@@ -1428,7 +1431,7 @@ header {
   float: right;
 }
 
-@media (min-width:767px) {
+@media (min-width: 767px) {
   .g-Right .gcontent {
     width: 50%;
   }
@@ -1440,18 +1443,15 @@ header {
   }
 }
 
-@media (max-width:998px) {
+@media (max-width: 998px) {
   .getStarted .g-Right {
     display: none;
-
   }
 
   body .getStarted {
-
     grid-template-columns: 1fr;
   }
 }
-
 
 .fnBg .content {
   display: grid;
@@ -1462,10 +1462,8 @@ header {
   text-align: center;
 }
 
-
-
 body .nod-radio .rdiobox {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border-radius: 5px;
   /* padding: 10px 15px; */
 }
@@ -1475,7 +1473,7 @@ body .nod-radio label {
 }
 
 .rdiobox input:checked~span {
-  color: #0744DD;
+  color: #0744dd;
   opacity: 1;
 }
 
@@ -1483,7 +1481,7 @@ body .nod-radio label {
   display: none;
 }
 
-.nod-radio .rdiobox input[type='radio'] {
+.nod-radio .rdiobox input[type="radio"] {
   opacity: 0;
   /* margin: 0 5px 0 0; */
   visibility: hidden;
@@ -1494,7 +1492,7 @@ body .nod-radio label {
   width: 0;
 }
 
-.nod-radio .rdiobox input[type='radio']:checked {
+.nod-radio .rdiobox input[type="radio"]:checked {
   opacity: 0;
   /* margin: 0 5px 0 0; */
   visibility: hidden;
@@ -1503,37 +1501,37 @@ body .nod-radio label {
   cursor: pointer;
   height: 0;
   width: 0;
-  color: #0668E3;
+  color: #0668e3;
   opacity: 100%;
-  border: 1px solid #0668E3;
-  background-color: #FFFFFF;
-  border: 1px solid #0668E3;
+  border: 1px solid #0668e3;
+  background-color: #ffffff;
+  border: 1px solid #0668e3;
   border-radius: 50px;
   padding: 10px 15px;
 }
 
 .nod-radio .rdiobox input~span {
   color: #697788;
-  border: 1px solid #E3E3E3;
+  border: 1px solid #e3e3e3;
   border-radius: 50px;
   padding: 10px 15px;
   display: block;
 }
 
 .nod-radio .rdiobox input:checked~span {
-  color: #0668E3;
+  color: #0668e3;
 
   background-color: rgba(206, 225, 248, 0.44);
 
-  box-shadow: 0 0 10px 0 rgba(86, 86, 86, 0.20);
+  box-shadow: 0 0 10px 0 rgba(86, 86, 86, 0.2);
 
-  border: 1px solid #0668E3;
+  border: 1px solid #0668e3;
   border-radius: 50px;
   padding: 10px 15px;
   display: block;
 }
 
-.nod-radio .rdiobox input[type='radio']:checked+span:after {
+.nod-radio .rdiobox input[type="radio"]:checked+span:after {
   display: none;
 }
 
@@ -1564,5 +1562,49 @@ body .outofplace {
 }
 
 .total .info-2 {
-  color: #0668E3;
+  color: #0668e3;
+}
+
+body .terms {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-gap: 2em;
+  margin-top: 2em;
+  margin-bottom: 5em;
+}
+
+.terms .termsContent h1 {
+  font-family: Graphik-Bold;
+  color: #212529;
+  padding-bottom: 15px;
+  margin-top: 1.5em;
+}
+
+.terms .termsContent h5 {
+  font-family: Graphik-Medium;
+  color: #212529;
+  padding-bottom: 25px;
+}
+
+.terms .termsContent h4 {
+  font-family: Graphik-Medium;
+  color: #212529;
+  padding-bottom: 25px;
+}
+
+.terms .termsContent h6 {
+  font-family: Graphik-Medium;
+  color: #212529;
+}
+
+.terms .termsContent ol li {
+  margin-left: -21px !important;
+  padding-bottom: 5px;
+  font-size: 16px;
+  font-family: Graphik;
+}
+
+.terms .termsContent p {
+  font-size: 16px;
+  font-family: Graphik;
 }
